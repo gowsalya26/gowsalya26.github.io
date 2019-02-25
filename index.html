@@ -189,6 +189,16 @@ border-radius: 50%;
 				<h3>JavaScript</h3>
 				<p>JavaScript, often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language.</p>
 			</div>
+			<div class="col-md-3 ser-grid">
+				<img src="images/js.png" height="190px" width="140px">
+				<h3>C</h3>
+				<p>C is a general purpose,computer programming language.It is a widely used language with C compiler from various vendors.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<img src="images/js.png" height="190px" width="140px">
+				<h3>JAVA</h3>
+				<p>Java is a programming language and a platform.Java is a high level, robust, object-oriented and secure programming language.</p>
+			</div>
 			
 			<div class="clearfix"></div>
 		</div>
@@ -210,6 +220,14 @@ border-radius: 50%;
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
 						<p>JavaScript</p>
+					</div>
+			<div class="col-md-2 col-md-offset-1 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p> C</p>
+					</div>
+			<div class="col-md-2 col-md-offset-1 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>JAVA</p>
 					</div>
 					
 					<div class="clearfix"> </div>
@@ -260,7 +278,34 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
-								
+								for (var i = 4; i <= 4; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 70;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+							 for (var i = 5; i <= 5; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
 								
 						
 				</script>
